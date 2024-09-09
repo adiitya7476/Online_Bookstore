@@ -1,0 +1,77 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    margin-top:20px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.order-history, .order-items {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.order-history th, .order-history td,
+.order-items th, .order-items td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+}
+
+.order-history th, .order-items th {
+    background-color: #f2f2f2;
+    color: #333;
+    font-weight: bold;
+}
+
+.order-history td, .order-items td {
+    background-color: #fff;
+}
+
+.order-history tr:nth-child(even),
+.order-items tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.order-history tr:hover,
+.order-items tr:hover {
+    background-color: #f1f1f1;
+}
+
+p {
+    text-align: center;
+    color: #888;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+
+    .order-history th, .order-history td,
+    .order-items th, .order-items td {
+        padding: 8px;
+    }
+}

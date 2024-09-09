@@ -1,0 +1,42 @@
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.order-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.order-table th, .order-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.order-table th {
+    background-color: #f2f2f2;
+}
+
+form {
+    display: inline-block;
+}
+
+select {
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.btn-update {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-update:hover {
+    background-color: #45a049;
+}

@@ -1,0 +1,99 @@
+@charset "UTF-8";
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f4f8;
+    background-image:url("images/Hero2.jpeg");
+    height: 100vh;
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+    position: relative; 
+}
+
+.main-form {
+    background-color: #ffffff;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    max-width: 100%;
+    width: 400px;
+    box-sizing: border-box;
+    position: absolute; 
+    top: 70%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+    font-size: 24px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #4a4a4a;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="file"],
+textarea,select{
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #dcdcdc;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 15px;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="file"]:focus,
+textarea:focus,
+select:focus{
+    border-color: #7dce94;
+    background-color: #eefcf2;
+    outline: none;
+}
+
+button {
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    background-color: #7dce94;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #6bb782;
+}
+
+button:active {
+    background-color: #5aa96d;
+}
+
+.clickhere{
+	padding: 8px;
+}
+.clickhere a{
+	text-decoration: none;
+}
